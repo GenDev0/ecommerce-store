@@ -6,6 +6,7 @@ import Container from "@/components/ui/container";
 import useCart from "@/hooks/use-cart";
 import NoResults from "@/components/ui/no-result";
 import CartItem from "./components/cart-item";
+import Summary from "./components/summary";
 
 interface CartPageProps {}
 
@@ -38,6 +39,7 @@ const CartPage = (props: CartPageProps) => {
                 ))}
               </ul>
             </div>
+            <Summary />
           </div>
         </div>
       </Container>
